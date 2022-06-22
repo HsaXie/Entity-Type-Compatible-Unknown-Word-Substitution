@@ -48,10 +48,10 @@ The POS tagging model can be downloaded from (https://nlp.informatik.hu-berlin.d
 ### Run:
 
 #### NER WordEmbedding baseline model 
-> python ./ner/ner_wordEmbedding.py
+> python ner/ner_wordEmbedding.py
 
 #### NER BERT baseline model 
-> python ./ner/ner_bert.py
+> python ner/ner_bert.py
 
 #### ETC Substitution 
 > python etc_main.py
@@ -60,5 +60,5 @@ The POS tagging model can be downloaded from (https://nlp.informatik.hu-berlin.d
 > python eval.py
 
 #### fastText Crawl Model Type converting
-> python ./embedding/vec2bin.py
+> python embedding/vec2bin.py
 
